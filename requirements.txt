@@ -1,2 +1,2 @@
 numpy==1.25.0
-matplotlin == 1.5
+matplotlin == 2.1.1
