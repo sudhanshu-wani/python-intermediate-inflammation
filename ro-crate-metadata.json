@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "@vocab": "http://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "Test_name",
+      "author": {
+        "@id": "#Skye-1"
+      },
+      "license": {
+        "@id": "#Intermediate_Research-1"
+      }
+    },
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "#Skye-1",
+      "@type": "Person",
+      "name": "Skye-1"
+    },
+    {
+      "@id": "#Intermediate_Research-1",
+      "@type": "SoftwareApplication",
+      "name": "Intermediate_Research-1"
+    }
+  ]
+}
